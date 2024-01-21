@@ -101,6 +101,7 @@ while True:
 
         cv2.imshow("Frame", frame)
         cv2.imshow("Result of detector", face_frame)
+    cv2.imshow("Frame", frame)
     key = cv2.waitKey(1)
     if key == ord('q'):
         break
